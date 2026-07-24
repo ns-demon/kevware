@@ -1,4 +1,422 @@
 -- This is KevWare V2, coded by me (1.sm. on Discord). I spent a couple of months working on this project, adding features, fixing bugs, and improving it over time. I decided to make it open source so others can check it out, learn from it, and contribute if they want. Hope you enjoy it and have fun with the project.
+--[[ features and description  KEVWARE is an open-source Roblox Lua utility script primarily focused on Da Hood-style games and copies such as Zel Hood, Des Hood, and Hood Modded. It features a customizable UI, ESP tools, movement options, configuration saving, multiple themes, trolling utilities, horror effects, and many customization options. Built with a modular design, KEVWARE is made for learning, experimenting, and community development. 
+
+ Features Below! 
+
+
+
+** 🎯 Combat / Aim Features
+
+
+
+
+
+Camlock system
+
+
+
+Custom prediction settings
+
+
+
+Custom aim part selection (Head / UpperTorso)
+
+
+
+Smoothness adjustment
+
+
+
+Wall check support
+
+
+
+Target selection based on closest player
+
+
+
+Configurable aim settings
+
+👁️ ESP Features
+
+
+
+
+
+Player ESP
+
+
+
+Boxes
+
+
+
+Names
+
+
+
+Distance display
+
+
+
+Health display
+
+
+
+Tracers
+
+
+
+ESP update optimization system
+
+🏃 Movement Features
+
+
+
+
+
+Noclip
+
+
+
+WalkSpeed changer
+
+
+
+Infinite jump
+
+
+
+Fly mode
+
+
+
+Custom fly speed
+
+
+
+Movement settings saved in config
+
+📍 Teleport Features
+
+
+
+
+
+Teleport to players
+
+
+
+Player targeting system
+
+
+
+Saved teleport references
+
+
+
+Rejoin on death option
+
+
+
+Join official game option
+
+😈 Troll Features
+
+
+
+
+
+Spin bot
+
+
+
+Chat spam
+
+
+
+Sound spam
+
+
+
+Mass fling
+
+
+
+Invisible mode
+
+
+
+Giant mode
+
+
+
+Rainbow mode
+
+
+
+Float mode
+
+
+
+Explosion effects
+
+
+
+Throw players
+
+
+
+Freeze players
+
+
+
+Screen shake
+
+
+
+Spam parts
+
+
+
+Gravity changes
+
+
+
+Flash effects
+
+
+
+Clone spam
+
+
+
+Lag effects
+
+
+
+Slow motion
+
+
+
+Random teleport
+
+
+
+Camera effects
+
+
+
+Speed boost
+
+
+
+Effect spam
+
+👻 Creepy / Horror Mode
+
+
+
+
+
+Jump scares
+
+
+
+Screen flashes
+
+
+
+Ghost mode
+
+
+
+Possession effects
+
+
+
+Dark sky mode
+
+
+
+Ghost spawning
+
+
+
+Creepy sounds
+
+
+
+Creepy messages
+
+
+
+Color inversion
+
+
+
+Shadow clones
+
+
+
+Creepy music
+
+
+
+Flickering lights
+
+
+
+Randomized character parts
+
+
+
+Possession all players mode
+
+🎨 UI Features
+
+
+
+
+
+Custom KEVWARE interface
+
+
+
+Multiple themes:
+
+
+
+
+
+Purple
+
+
+
+Rainbow
+
+
+
+Aurora
+
+
+
+Neon
+
+
+
+Ocean
+
+
+
+Fire
+
+
+
+Ice
+
+
+
+Matrix
+
+
+
+Custom theme
+
+
+
+Adjustable:
+
+
+
+
+
+Accent colors
+
+
+
+Background colors
+
+
+
+Transparency
+
+
+
+Glow effects
+
+
+
+Borders
+
+
+
+Corner radius
+
+
+
+Fonts
+
+💾 Configuration System
+
+
+
+
+
+Saves settings automatically
+
+
+
+Loads previous configuration
+
+
+
+JSON-based config storage
+
+
+
+Custom theme persistence
+
+
+
+Universal clipboard support
+
+
+
+Universal file support for executors
+
+⚙️ Extra Utilities
+
+
+
+
+
+Performance optimizer
+
+
+
+Notification system
+
+
+
+Error protection with safe pcall wrappers
+
+
+
+Customization panels
+
+
+
+Command system support
+
+
+
+Chat Spy support setting
+
+
+
+Executor compatibility helpers **
+]]
 
 getgenv().Prediction = 0.094
 getgenv().AimPart = "Head"
